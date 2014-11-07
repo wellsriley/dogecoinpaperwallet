@@ -4,20 +4,20 @@
 	<meta charset="iso-8859-1">
 	<!--
 
-    generate-wallet.html (from http://dogecoinpaperwallet.net)
+    index.html (from http://dogecoinpaperwallet.net)
 
-    email: Wells Riley (wells.riley@me.com)
+    email: Wells Riley (wells.riley@gmail.com)
 
-    generate-wallet.html is always distributed with a PGP signature "generate-wallet.html.sig" which you can use to validate the integrity and authorship of this file like so:
+    index.html is always distributed with a PGP signature "index.html.sig" which you can use to validate the integrity and authorship of this file like so:
 
-    gpg --verify --with-fingerprint generate-wallet.html.sig generate-wallet.html
+    gpg --verify --with-fingerprint index.html.sig index.html
 
-    Wallet design is ©Copyright 2014 Wells Riley. See below for other credits and copyrights.
+    Wallet design is ©Copyright 2014-2015 Wells Riley. See below for other credits and copyrights.
 
     **************************************************************
 		* github: http://github.com/wellsriley/dogecoinpaperwallet
     * Please donate dogecoin: DAWGAuMCMYCwHoU6DMNkGwrB9rGG3sY1t7
-    * Bitcoin works too: 1BrQpq4qdxnwJoD2WKKNMo4PLa8oi2mxAU
+    * Bitcoin works too: https://coinbase.com/wells
     **************************************************************
 		* The starting point for this code was the excellent single-file bitaddress.org project.
 	  * Bitcoin Donation Address: 1NiNja1bUmhSoTXozBRBEtR8LeF9TGbZBN
@@ -6299,6 +6299,18 @@ Bitcoin.Util = {
 			font-style: normal;
 		}
 
+		@font-face {
+	    font-family: 'dogesans';
+	    src: url('images/dogesans-regular-webfont.eot');
+	    src: url('images/dogesans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('images/dogesans-regular-webfont.woff2') format('woff2'),
+	         url('images/dogesans-regular-webfont.woff') format('woff'),
+	         url('images/dogesans-regular-webfont.ttf') format('truetype'),
+	         url('images/dogesans-regular-webfont.svg#doge_sansregular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+		}
+
 		.right { text-align: right; }
 		.walletarea { display: none; }
 		.keyarea { font-family: Courier New; height: 110px; text-align: left; position: relative; padding: 5px; }
@@ -6312,7 +6324,7 @@ Bitcoin.Util = {
 		.pubkeyhex { word-wrap: break-word; }
 		.faqs ol { padding: 0 0 0 25px; }
 		.faqs li { padding: 3px 0; }
-		body { margin-top: 0; font-family: Comic Sans ms; background-image:url(images/webpage-background.png); background-repeat: repeat-y; background-position: center; }
+		body { margin-top: 0; font-family: "dogesans", Comic Sans ms; background-image:url(images/webpage-background.png); background-repeat: repeat-y; background-position: center; }
 
 		h1 { font-size: 32px; line-height: 90px; font-weight: 100; color: #555; margin:20px 0; padding:0; }
 
@@ -6435,7 +6447,7 @@ Bitcoin.Util = {
 			border:1px solid #83c41a;
 			display:inline-block;
 			color:#ffffff !important;
-			font-family: Comic Sans MS;
+			font-family: "dogesans", Comic Sans MS;
 			font-size:14px;
 			font-weight:bold;
 			font-style:normal;
@@ -6486,7 +6498,7 @@ Bitcoin.Util = {
 		  -webkit-animation: blink 0.75s infinite linear alternate;
 		  -webkit-font-smoothing: antialiased;
 		}
-		#generatelabelmovemouse { margin: 60px 150px; padding: 80px 30px; font-weight: bold; text-align: center; -webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;background-color:#fafafa;-webkit-box-shadow: #ccc 0 1px 4px;-moz-box-shadow: #ccc 0 1px 4px; box-shadow: #ccc 0 1px 4px;font-family:Comic Sans MS; }
+		#generatelabelmovemouse { margin: 60px 150px; padding: 80px 30px; font-weight: bold; text-align: center; -webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;background-color:#fafafa;-webkit-box-shadow: #ccc 0 1px 4px;-moz-box-shadow: #ccc 0 1px 4px; box-shadow: #ccc 0 1px 4px;font-family:"dogesans", Comic Sans MS; }
 		#generatelabelbitcoinaddress { text-align: center;}
 
 		@media screen
@@ -6494,7 +6506,7 @@ Bitcoin.Util = {
 			#tagline { margin: 40px 0 0 360px; font-size: 24px; color: rgb(255,255,255); text-shadow: 0 1px 1px #ee7b00; }
 			#tagsite { margin: 5px 0 5px 360px; font-size: 14px; color: #fff; text-shadow: 0 1px 1px #ee7b00; }
 
-			.menu { text-align: left; margin-top: 36px; }
+			.menu { text-align: left; margin-top: 39px; }
 			.menu .tab {
 				border-top-left-radius: 3px;
 				border-top-right-radius: 3px;
@@ -6528,7 +6540,7 @@ Bitcoin.Util = {
 			#bulkstartindex, #paperlimit, #paperlimitperpage { width: 35px; }
 			#bulklimit { width: 45px; }
 
-			.footer { font-family: Comic Sans MS; font-size: 90%; clear: both; padding: 10px 0 10px 0; margin: 100px 20px 0; color: #999; border-top: 1px dotted #999;}
+			.footer { font-family: "dogesans", Comic Sans MS; font-size: 90%; clear: both; padding: 10px 0 10px 0; margin: 100px 20px 0; color: #999; border-top: 1px dotted #999;}
 			.footer div span.item { padding: 5px; }
 			.footer .authorbtc { float: left; width: 470px; }
 			.footer .authorbtc span.item { text-align: left; display: block; padding-right: 20px; }
@@ -6769,7 +6781,7 @@ Bitcoin.Util = {
 
 						<p>Finally seal your wallet by placing two strips of sturdy <strong>light-blocking</strong> tape over the top and bottom edges of the private (folded) area. A zip-seal bag will keep it safe from moisture (especially important for inkjet prints.)</p>
 
-            <p><span style="color:red;":>NEW:</span> <a href="https://bitcoinpaperwallet.com/?p=dogecoin#purchase" target="_blank" class="nicerButton" style="width: 550px;">Purchase hologram stickers and/or zip-sealing bags from BitcoinPaperWallet</a></p>
+            <p><a href="https://bitcoinpaperwallet.com/?p=dogecoin#purchase" target="_blank" class="nicerButton" style="width: 550px;">Purchase hologram stickers and/or zip-sealing bags from BitcoinPaperWallet</a></p>
 
 						<p><img src="images/finished-sample-sealed.jpg" width="400" height="266" alt="Sealed Wallet"></p>
 
@@ -6793,12 +6805,12 @@ Bitcoin.Util = {
 					<span class="item"><b>Support Dogecoin Paper Wallet</b></span>
           <span class="item" style="font-size: 11px; font-family: 'Courier New', Courier, monospace;">
             <strong>very dogecoin</strong>: DAWGAuMCMYCwHoU6DMNkGwrB9rGG3sY1t7<br />
-            <strong>such bitcoin</strong>:&nbsp; 1BrQpq4qdxnwJoD2WKKNMo4PLa8oi2mxAU<br />
+            <strong>such bitcoin</strong>:&nbsp; <a href="https://coinbase.com/wells">https://coinbase.com/wells</a><br />
           </span>
         </div>
         <div class="copyright">
         	<p>
-        		&copy; Copyright 2014 <a href="http://wells.ee">Wells Riley</a><br />
+        		&copy; Copyright 2015 <a href="https://twitter.com/wr">Wells Riley</a><br />
         		Other credits and JavaScript copyrights are included in the source.<br />
         		<strong>No warranty.</strong>
         	</p>
@@ -6807,14 +6819,14 @@ Bitcoin.Util = {
 			<div class="authorpgp">
 				<div id="siginfo" style="display: none; position: absolute; top: -300px;">
           <p class="closeme"><a href="#" onClick="document.getElementById('siginfo').style.display='none'; return(false);">X</a></p>
-          After downloading and extracting the <a href="https://github.com/wellsriley/dogecoinpaperwallet" target="_blank">ZIP package</a> for this generator, you should find a file named <b>generate-wallet.html.sig</b>
+          After downloading and extracting the <a href="https://github.com/wellsriley/dogecoinpaperwallet" target="_blank">ZIP package</a> for this generator, you should find a file named <b>index.html.sig</b>
           which you can use to:
-          <ol><li> verify that <strong>generate-wallet.html</strong> hasn't been tampered with, and</li>
-          <li>get proof that it really was authored by Wells Riley (wells.riley@me.com) whose public key and fingerprint can be confirmed at <a href="http://wells.ee/pgp">http://wells.ee/pgp</a></li>
+          <ol><li> verify that <strong>index.html</strong> hasn't been tampered with, and</li>
+          <li>get proof that it really was authored by Wells Riley (wells.riley@gmail.com) whose public key and fingerprint can be confirmed at <a href="http://wells.ee/pgp">http://wells.ee/pgp</a></li>
           </ol>
           For example, if you have GPG installed, just open the terminal, change directory (cd) to where this file lives, and type:<br />
-          <code>  gpg --recv-key F14D9476<br />
-          gpg --verify --with-fingerprint generate-wallet.html.sig generate-wallet.html</code>
+          <code>  gpg --recv-key D349C578<br />
+          gpg --verify --with-fingerprint index.html.sig index.html</code>
          	<br /><br />And then verify the signature's fingerprint against Wells Riley's <a href="http://wells.ee/pgp">published PGP/GPG fingerprint</a>.<br /><br />
         	<a href="http://www.google.com/search?q=how+to+verify+PGP+%22.sig%22+signature+on+file">Learn how to verify a PGP-signed file &raquo;</a>
       	</div>

@@ -12,17 +12,14 @@ named `index.html.sig` which you can use to:
 * Verify that index.html hasn't been tampered with, and
 * Get proof that it really was authored by [Wells Riley](http://wells.ee/pgp).
 
-`$ gpg --recv-key F14D9476`
+`$ gpg --recv-key D349C578`
 `$ gpg --verify --with-fingerprint index.html.sig index.html`
 
 And then verify the resulting signature's fingerprint against Wells Riley's published fingerprint at [http://wells.ee/pgp](http://wells.ee/pgp).
 
-If you get warnings like "This key is not certified, there is no indication that
-the key belongs to the owner" do not worry, this is normal.
-
 ### Much Donate
 - very dogecoin `DAWGAuMCMYCwHoU6DMNkGwrB9rGG3sY1t7`
-- such bitcoin  `1BrQpq4qdxnwJoD2WKKNMo4PLa8oi2mxAU`
+- such bitcoin  [Coinbase](https://coinbase.com/wells)
 
 
 --------------------------------------
