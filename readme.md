@@ -10,12 +10,12 @@ After downloading the ZIP package for this generator, you should find a file
 named `index.html.sig` which you can use to:
 
 * Verify that index.html hasn't been tampered with, and
-* Get proof that it really was authored by [Wells Riley](http://wells.ee/pgp).
+* Get proof that it really was authored by [Wells Riley](https://wells.ee/pgp).
 
 `$ gpg --recv-key D349C578`
 `$ gpg --verify --with-fingerprint index.html.sig index.html`
 
-And then verify the resulting signature's fingerprint against Wells Riley's published fingerprint at [http://wells.ee/pgp](http://wells.ee/pgp).
+And then verify the resulting signature's fingerprint against Wells Riley's published fingerprint at [https://wells.ee/pgp](https://wells.ee/pgp).
 
 ### Much Donate
 - very dogecoin `DAWGAuMCMYCwHoU6DMNkGwrB9rGG3sY1t7`
