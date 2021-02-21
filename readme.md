@@ -19,7 +19,7 @@ named `index.html.sig` which you can use to:
 `$ gpg --verify --with-fingerprint index.html.sig index.html`
 
 ### Much Donate
-- very dogecoin `DAWGAuMCMYCwHoU6DMNkGwrB9rGG3sY1t7`
+- very dogecoin `DRh4oB8pkC6SvDWEpdSJNcoam4VaHEkiKm`
 - such bitcoin  `3BxFyM82aQe56XKaLdbS6udKbnWQstL7gy`
 
 
