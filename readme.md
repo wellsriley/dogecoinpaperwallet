@@ -2,7 +2,7 @@
 
 ## New domain! [dogecoinpaperwallet.org](https://dogecoinpaperwallet.org)
 
-![wow-such-money](http://wellsosaur.us/T70V/wow-such-doge.jpg)
+![wow-such-money](https://f.v1.n0.cdn.getcloudapp.com/items/3W2O3D1n2B3U1Z3y0i3Z/wow-such-doge.jpg)
 # Dogecoin Paper Wallet
 - [Download ZIP](https://github.com/wellsriley/dogecoinpaperwallet/archive/master.zip)
 
