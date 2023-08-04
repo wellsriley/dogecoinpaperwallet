@@ -1,6 +1,8 @@
-**⚠️⚠️⚠️ Please note! The domain name _dogecoinpaperwallet.net_ was previously associated with this project, but I have let it expire. If someone new re-registers that domain, it is in _no way_ affiliated with me. Proceed with caution. ⚠️⚠️⚠️**
+⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 
-## New domain! [dogecoinpaperwallet.org](https://dogecoinpaperwallet.org)
+**Please note!** The domain names _dogecoinpaperwallet.net_ and _dogecoinpaperwallet.org_ were previously associated with this project, but I have let them expire. If someone new re-registers those domains, they are in _**no way**_ affiliated with me. Proceed with caution.
+
+⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 
 ![wow-such-money](https://f.v1.n0.cdn.getcloudapp.com/items/3W2O3D1n2B3U1Z3y0i3Z/wow-such-doge.jpg)
 # Dogecoin Paper Wallet
